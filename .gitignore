@@ -1,6 +1,7 @@
 # Byte-compiled / optimized / DLL files
 
 .vscode
+.devcontainer
 
 __pycache__/
 *.py[cod]
@@ -130,3 +131,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# node modules
+node_modules/
+
+# built client code
+sentimentAnalyzeServer/client/
+
+# linting
+.eslintcache
